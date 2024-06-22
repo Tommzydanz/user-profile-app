@@ -1,7 +1,6 @@
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import React, { useCallback, useState } from "react";
 import { useHeaderHeight } from "@react-navigation/elements";
-import { RootState } from "../../store/store";
 import Screen from "../../components/Screen/Screen";
 import { editDetailsValidationSchema } from "../../utils/validationSchema.utils";
 import { useFormik } from "formik";;
