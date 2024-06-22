@@ -82,7 +82,7 @@ const Login = () => {
             value={values.password}
             secure={!passwordVisible}>
             <MaterialIcons
-              name={passwordVisible ? 'visibility' : 'visibility-off'}
+              name={passwordVisible ? 'visibility-off' : 'visibility'}
               size={14}
               color="black"
               style={{right: 20}}
@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
   screen: {
     backgroundColor: colors.white,
     paddingHorizontal: 16,
+    marginTop: 70,
   },
   container: {
     flex: 1,

@@ -85,7 +85,7 @@ const SignUp = () => {
             value={values.password}
             secure={!passwordVisible}>
             <MaterialIcons
-              name={passwordVisible ? 'visibility' : 'visibility-off'}
+              name={passwordVisible ? 'visibility-off' : 'visibility'}
               size={14}
               color="black"
               style={{right: 20}}
@@ -96,7 +96,7 @@ const SignUp = () => {
             <Text style={styles.errorText}>{formik.errors.password}</Text>
           ) : null}
 
-          <Button style={{marginTop: '20%'}} onPress={formik.handleSubmit} disable={isLoading}>
+          <Button onPress={formik.handleSubmit} disable={isLoading}>
             {isLoading ? <WhiteLoader /> : <Text>Sign Up</Text>}
           </Button>
           <View style={styles.switchContainer}>
