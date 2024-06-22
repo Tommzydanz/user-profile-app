@@ -147,7 +147,6 @@ const styles = StyleSheet.create({
   contentContainer: {
     flexGrow: 1,
     justifyContent: 'space-between',
-    flexDirection: 'column',
   },
   container: {
     flex: 1,

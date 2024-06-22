@@ -21,11 +21,12 @@ export default function BottomTab() {
           position: 'absolute',
           paddingVertical: 12,
           marginHorizontal: 90,
-          marginVertical: 50,
+          marginVertical: 30,
           borderRadius: 50, //add border top left radius
           shadowOpacity: 0.7,
           shadowOffset: {width: 0, height: 5},
           elevation: 3,
+          height: 80,
           overflow: 'hidden',
         },
       }}>
