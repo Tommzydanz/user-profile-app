@@ -32,7 +32,8 @@ const GuestStack = function GuestStack() {
         name="Login"
         component={Login}
         options={{
-          header: () => null,
+          headerTitle: '',
+          headerLeft: () => null,
         }}
       />
       <Stack.Screen
