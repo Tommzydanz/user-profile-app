@@ -31,7 +31,9 @@ const GuestStack = function GuestStack() {
       <Stack.Screen
         name="Login"
         component={Login}
-        options={{headerTitle: ''}}
+        options={{
+          header: () => null,
+        }}
       />
       <Stack.Screen
         name="SignUp"
